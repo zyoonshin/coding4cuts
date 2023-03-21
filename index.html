@@ -26,7 +26,7 @@
 
       .container {
         width: 390px;
-        background-color: #ff9d73;
+        background-color: #e562b7;
         height: 100%;
       }
 
@@ -38,6 +38,9 @@
         background-color: white;
         margin: 15px 20px;
         height: 200px;
+
+        background-size: cover;
+        position: relative;
       }
 
       .footer {
@@ -57,34 +60,58 @@
         font-size: 15px;
         font-weight: 500;
       }
+
+      #image1 {
+        background-image: url("./taeyeon1.jpg");
+      }
+
+      #image2 {
+        background-image: url("./taeyeon2.jpg");
+      }
+
+      #image3 {
+        background-image: url("./taeyeon3.jpg");
+      }
+
+      #image4 {
+        background-image: url("./taeyeon4.jpg");
+      }
+
+      .photo_description {
+        color: white;
+        xbackground-color: black;
+
+        width: fit-content;
+        xpadding: 0 20px;
+        margin-bottom: 2px;
+        xborder-radius: 10px;
+
+        position: absolute;
+        bottom: 0;
+
+        transform: translate(-50%);
+        left: 50%;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="photos">
         <div id="image1" class="photo-frame">
-          <span id="desc1" class="photo_description">
-            첫 번째 이미지 설명
-          </span>
+          <span id="desc1" class="photo_description"> INVU </span>
         </div>
         <div id="image2" class="photo-frame">
-          <span id="desc2" class="photo_description">
-            두 번째 이미지 설명
-          </span>
+          <span id="desc2" class="photo_description"> Weekend </span>
         </div>
         <div id="image3" class="photo-frame">
-          <span id="desc3" class="photo_description">
-            세 번째 이미지 설명
-          </span>
+          <span id="desc3" class="photo_description"> INVU </span>
         </div>
         <div id="image4" class="photo-frame">
-          <span id="desc4" class="photo_description">
-            네 번째 이미지 설명
-          </span>
+          <span id="desc4" class="photo_description"> Weekend </span>
         </div>
       </div>
       <div class="footer">
-        <p class="f-title">Happy Lunch Time</p>
+        <p class="f-title">Coding4Cuts</p>
         <p class="f-date">2023.03.21</p>
       </div>
     </div>
